@@ -4,12 +4,11 @@ import com.typesafe.sbt.SbtMultiJvm.MultiJvmKeys.MultiJvm
 
 organization := "com.sclasen"
 name := "akka-zk-cluster-seed"
-version := "0.1.10-SNAPSHOT"
+version := "0.1.11-SNAPSHOT"
 
-scalaVersion := "2.11.8"
-crossScalaVersions := Seq(scalaVersion.value, "2.12.1")
+scalaVersion := "2.12.3"
 
-val akkaVersion = "2.4.18"
+val akkaVersion = "2.5.4"
 val akkaHttpVersion = "10.0.6"
 
 val akkaDependencies = Seq(
